@@ -4,7 +4,7 @@ import ThemeToggleButton from "../ThemeToggleButton";
 const Header = () => {
   return (
     <header
-      className="fixed right-0 left-0 border-b shadow"
+      className="fixed right-0 left-0 z-100 border-b shadow backdrop-blur-lg"
       aria-label="app-header">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <Link href={"/"}>
@@ -17,6 +17,7 @@ const Header = () => {
 
         <nav className="flex items-center gap-4">
           <Link href={"/"}>Home</Link>
+          <Link href={"/career"}>Career</Link>
 
           <ThemeToggleButton />
         </nav>

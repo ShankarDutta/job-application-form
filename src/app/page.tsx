@@ -12,6 +12,8 @@ const page = () => {
         <h1 className="text-5xl font-semibold">Nextjs Starter Frontend</h1>
         <h2 className="text-3xl">Production grade Next.js starter template</h2>
       </div>
+
+      
     </section>
   );
 };
